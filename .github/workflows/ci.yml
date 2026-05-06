@@ -39,7 +39,7 @@ jobs:
           DB_DATABASE: email_distribution_portal
           DB_USERNAME: root
           DB_PASSWORD: root
-      - run: php artisan test
+      - run: vendor/bin/phpunit
         env:
           DB_CONNECTION: sqlite
           DB_DATABASE: ":memory:"

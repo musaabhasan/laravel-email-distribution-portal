@@ -47,7 +47,7 @@
       "@php artisan migrate --ansi"
     ],
     "test": [
-      "@php artisan test"
+      "@php vendor/bin/phpunit"
     ],
     "format": [
       "pint"

@@ -51,7 +51,7 @@ class Recipient extends Model
 
     public function groups(): BelongsToMany
     {
-        return $this->belongsToMany(RecipientGroup::class)->withTimestamps();
+        return $this->belongsToMany(RecipientGroup::class, 'recipient_group_recipient')->withTimestamps();
     }
 
     public function queueItems(): HasMany

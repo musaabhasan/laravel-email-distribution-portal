@@ -27,6 +27,6 @@ class RecipientGroup extends Model
 
     public function recipients(): BelongsToMany
     {
-        return $this->belongsToMany(Recipient::class)->withTimestamps();
+        return $this->belongsToMany(Recipient::class, 'recipient_group_recipient')->withTimestamps();
     }
 }

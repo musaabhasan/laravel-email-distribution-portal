@@ -35,6 +35,13 @@ flowchart LR
   J --> L["Audit and Reports"]
 ```
 
+## Professional Assurance Documents
+
+- [Security Model](docs/SECURITY.md)
+- [Deliverability Governance](docs/DELIVERABILITY.md)
+- [Operational Runbook](docs/OPERATIONS.md)
+- [Operational Security Review Checklist](docs/OPERATIONAL_SECURITY_REVIEW.md)
+
 ## Laravel Scheduler
 
 Register the Laravel scheduler in cron:
